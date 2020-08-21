@@ -1,0 +1,4 @@
+/home/cesar/Documents/socket/UDP/build/CMakeFiles/rebuild_cache.dir
+/home/cesar/Documents/socket/UDP/build/CMakeFiles/server.dir
+/home/cesar/Documents/socket/UDP/build/CMakeFiles/edit_cache.dir
+/home/cesar/Documents/socket/UDP/build/CMakeFiles/client.dir

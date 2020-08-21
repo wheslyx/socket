@@ -1,0 +1,4 @@
+/home/cesar/Documents/socket/socket/build/CMakeFiles/rebuild_cache.dir
+/home/cesar/Documents/socket/socket/build/CMakeFiles/edit_cache.dir
+/home/cesar/Documents/socket/socket/build/CMakeFiles/client.dir
+/home/cesar/Documents/socket/socket/build/CMakeFiles/server.dir

@@ -1,0 +1,4 @@
+/home/cesar/Documents/socket/rocket/build/CMakeFiles/rebuild_cache.dir
+/home/cesar/Documents/socket/rocket/build/CMakeFiles/server.dir
+/home/cesar/Documents/socket/rocket/build/CMakeFiles/edit_cache.dir
+/home/cesar/Documents/socket/rocket/build/CMakeFiles/client.dir

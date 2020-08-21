@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cesar/Documents/socket/rocket/client.cpp
+rocket.h
+/home/cesar/Documents/socket/rocket/rocket.h
+
+/home/cesar/Documents/socket/rocket/rocket.cpp
+rocket.h
+/home/cesar/Documents/socket/rocket/rocket.h
+
+/home/cesar/Documents/socket/rocket/rocket.h
+netinet/in.h
+-
+sstream
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+iomanip
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+iostream
+-
+unistd.h
+-
+errno.h
+-
+
