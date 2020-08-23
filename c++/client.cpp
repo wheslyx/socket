@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#define PORT     8080 
+#define PORT     6790
 #define MAXLINE 1024 
   
 // Driver code 
