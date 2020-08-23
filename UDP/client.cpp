@@ -32,11 +32,14 @@ int main() {
     servaddr.sin6_addr = in6addr_any; 
       
     int n, len; 
-    printf("size of hello is %d\n", strlen(hello));  
-    sendto(sockfd, (const char *)hello, strlen(hello), 
+    while(true) {
+        printf("size of hello is %d\n", strlen(hello));  
+        sendto(sockfd, (const char *)hello, strlen(hello), 
         MSG_CONFIRM, (const struct sockaddr *) &servaddr,  
             sizeof(servaddr)); 
-    printf("Hello message sent.\n"); 
+        printf("Hello message sent.\n");
+    }
+     
           
     n = recvfrom(sockfd, (char *)buffer, MAXLINE,  
                 MSG_WAITALL, (struct sockaddr *) &servaddr, 
