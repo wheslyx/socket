@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/client.dir/client_data.cpp.o  -o client -rdynamic 
