@@ -16,7 +16,7 @@ int main() {
     int sockfd; 
     char buffer[MAXLINE]; 
     char *hello = "Hello from server"; 
-    struct sockaddr_in servaddr, cliaddr; 
+    struct sockaddr_in6 servaddr, cliaddr; 
       
     // Creating socket file descriptor 
     if ( (sockfd = socket(AF_INET, SOCK_DGRAM, 0)) < 0 ) { 
@@ -28,9 +28,9 @@ int main() {
     memset(&cliaddr, 0, sizeof(cliaddr)); 
       
     // Filling server information 
-    servaddr.sin_family    = AF_INET6; // IPv4 
-    servaddr.sin_addr.s_addr = INADDR_ANY; 
-    servaddr.sin_port = htons(PORT); 
+    servaddr.sin6_family    = AF_INET6; // IPv4 
+    servaddr.sin6_addr.s_addr = INADDR_ANY; 
+    servaddr.sin6_port = htons(PORT); 
       
     // Bind the socket with the server address 
     if ( bind(sockfd, (const struct sockaddr *)&servaddr,  
