@@ -29,7 +29,7 @@ int main() {
       
     // Filling server information 
     servaddr.sin6_family    = AF_INET6; // IPv4 
-    servaddr.sin6_addr.in6_addr = INADDR_ANY; 
+    servaddr.sin6_addr = INADDR_ANY; 
     servaddr.sin6_port = htons(PORT); 
       
     // Bind the socket with the server address 
