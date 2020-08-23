@@ -32,7 +32,7 @@ int main() {
     servaddr.sin6_addr = in6addr_any; 
     servaddr.sin6_port = htons(PORT); 
     
-    lenserver = sizeof(*servaddr);  
+    lenserver = sizeof(servaddr);  
     // Bind the socket with the server address 
     if ( bind(sockfd, (const struct sockaddr *)&servaddr, lenserver) < 0 ) 
     { 
