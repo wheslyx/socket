@@ -32,7 +32,7 @@ int main() {
     servaddr.sin6_addr = in6addr_any; 
       
     int n, len; 
-      
+    printf("size of hello is ", strlen(hello));  
     sendto(sockfd, (const char *)hello, strlen(hello), 
         MSG_CONFIRM, (const struct sockaddr *) &servaddr,  
             sizeof(servaddr)); 
